@@ -3,6 +3,8 @@ language: python
 cache:
   - pip
   - ccache
+  - directories:
+    - $HOME/Library/Caches/Homebrew
 
 matrix:
   include:
